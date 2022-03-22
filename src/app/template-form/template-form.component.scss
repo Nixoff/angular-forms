@@ -4,3 +4,8 @@
   }
 }
 
+.no-select.form-control:focus{
+  user-select: none;
+  user-select: -moz-none;
+    border-color: #ced4da !important;
+}
